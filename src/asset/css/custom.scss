@@ -1,0 +1,72 @@
+@import "mixins";
+@import "buttons";
+@import "variables";
+
+.table-footer .no-result-text {
+    color: $text-gray;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    text-transform: capitalize;
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+  
+  .custom-tooltip {
+    opacity: 1 !important;
+  
+    .tooltip-inner {
+      background-color: #fff;
+      color: #333;
+      box-shadow: 0px 0px 10px rgba(31, 31, 31, 0.2);
+      font-size: 12px !important;
+      font-weight: 400 !important;
+      padding: 6px 12px;
+      font-family: "Nunito Sans", sans-serif;
+      max-width: 550px;
+      max-height: 300px;
+      overflow: auto;
+      .tooltip-title {
+        font-weight: 700;
+        font-family: "Nunito Sans", sans-serif;
+      }
+    }
+  
+    .tooltip-arrow:before {
+      border-right-color: #fff !important;
+    }
+  
+    &.name-tooltip {
+      .tooltip-inner {
+        max-width: 300px;
+      }
+    }
+  
+    &.tooltip-bottom {
+      .tooltip-arrow:before {
+        border-bottom-color: #fff !important;
+        border-top-color: #fff;
+        border-right-color: transparent !important;
+      }
+    }
+  
+    &.tooltip-top {
+      .tooltip-arrow:before {
+        border-top-color: #fff !important;
+        border-right-color: transparent !important;
+      }
+    }
+  
+    &.text-start {
+      .tooltip-inner {
+        text-align: left !important;
+      }
+    }
+  
+    &.attachment-tooltip {
+      .tooltip-inner {
+        max-width: max-content;
+      }
+    }
+  }

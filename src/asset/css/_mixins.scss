@@ -1,0 +1,148 @@
+/*mixin for media query*/
+
+@mixin for-size($size) {
+
+    @if $size==phone-360 {
+        @media (max-width: 360px) {
+            @content;
+        }
+    }
+
+    @if $size==phone-380 {
+        @media (max-width: 380px) {
+            @content;
+        }
+    }
+
+    @if $size==phone-425 {
+        @media (max-width: 425px) {
+            @content;
+        }
+    }
+
+    @if $size==phone-400 {
+        @media (max-width: 400px) {
+            @content;
+        }
+    }
+
+    @if $size==phone-454 {
+        @media (max-width: 454px) {
+            @content;
+        }
+    }
+
+    @if $size==phone-480 {
+        @media (max-width: 480px) {
+            @content;
+        }
+    }
+
+    @if $size==phone-600 {
+        @media (max-width: 600px) {
+            @content;
+        }
+    }
+
+    @if $size==phone-520 {
+        @media (max-width: 520px) {
+            @content;
+        }
+    }
+
+    @if $size==phone-575 {
+        @media (max-width: 575px) {
+            @content;
+        }
+    }
+
+    @if $size==phone-576 {
+        @media (max-width: 576px) {
+            @content;
+        }
+    }
+
+    @if $size==tablet-768 {
+        @media (max-width: 768px) {
+            @content;
+        }
+    }
+
+    @if $size==tablet-767 {
+        @media (max-width: 767px) {
+            @content;
+        }
+    }
+
+    @if $size==ipad-850 {
+        @media (max-width: 850px) {
+            @content;
+        }
+    }
+
+    @if $size==ipad-991 {
+        @media (max-width: 991px) {
+            @content;
+        }
+    }
+
+    @if $size==ipad-992 {
+        @media (max-width: 992px) {
+            @content;
+        }
+    }
+
+    @if $size==ipad-1024 {
+        @media (max-width: 1024px) {
+            @content;
+        }
+    }
+
+    @if $size==ipad-1070 {
+        @media (max-width: 1070px) {
+            @content;
+        }
+    }
+
+    @if $size==desk-1199 {
+        @media (max-width: 1199px) {
+            @content;
+        }
+    }
+
+    @if $size==desk-1280 {
+        @media (max-width: 1280px) {
+            @content;
+        }
+    }
+
+    @if $size==desk-1366 {
+        @media (max-width: 1366px) {
+            @content;
+        }
+    }
+
+    @if $size==desk-1399 {
+        @media (max-width: 1399px) {
+            @content;
+        }
+    }
+
+    @if $size==desk-1536 {
+        @media (max-width: 1536px) {
+            @content;
+        }
+    }
+
+    @if $size==desk-1440 {
+        @media (max-width: 1440px) {
+            @content;
+        }
+    }
+
+    @if $size==desk-1600 {
+        @media (max-width: 1440px) {
+            @content;
+        }
+    }
+}
